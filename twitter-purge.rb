@@ -4,13 +4,13 @@ require 'date'
 require 'rubygems'
 require 'twitter'
 
-USERNAME            = '<username>'
-CONSUMER_KEY        = '<consumer-key>'
-CONSUMER_SECRET     = '<consumer-secret>'
-ACCESS_TOKEN        = '<access-token>'
-ACCESS_TOKEN_SECRET = '<access-token-secret>'
-DAYS_TO_KEEP        = 5
-ATTEMPTS_LIMIT      = 1
+USERNAME            = '<username>'            # Your username without the `@`
+CONSUMER_KEY        = '<consumer-key>'        # Consumer key from Twitter
+CONSUMER_SECRET     = '<consumer-secret>'     # Consumer secret from Twitter
+ACCESS_TOKEN        = '<access-token>'        # Access token from Twitter
+ACCESS_TOKEN_SECRET = '<access-token-secret>' # Access token secret from Twitter
+DAYS_TO_KEEP        = 7                       # How many days to keep tweets?
+ATTEMPTS_LIMIT      = 1                       # How many times do we try this?
 
 client = Twitter::REST::Client.new({
   :consumer_key        => CONSUMER_KEY,
