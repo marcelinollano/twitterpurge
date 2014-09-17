@@ -16,7 +16,7 @@ You will need some version of [Ruby](http://ruby-lang.org) and to have your own 
 5. Make the file executable `sudo chmod +x /usr/local/sbin/twitter-purge`
 6. Add a new crontab entry with the command `sudo crontab -e`.
 7. If you want to check daily add `0 0 * * * /usr/local/sbin/twitter-purge`.
-8. Save and exit. You are done! 
+8. Save and exit. You are done!
 
 ## Too Many Attempts
 
@@ -38,4 +38,4 @@ Am I overthinking this? Whatever.
 
 ## License
 
-Do whatever you want with the script, after all the heavy lifting is done by the [Twitter gem](https://github.com/sferik/twitter) which is not my work at all. Twitter is a trademark and is copyright of their respective owners.
+Do whatever you want with the script, after all the heavy lifting is done by the [Twitter gem](https://github.com/sferik/twitter) which is not my work at all. I did the little illustration in [Procreate](http://procreate.si), you can also do whatever with it. Twitter is a trademark and is copyright of their respective owners.
