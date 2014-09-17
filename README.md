@@ -1,7 +1,7 @@
 Twitter Purge
 =============
 
-A systematic way to remove your tweets because life has no meaning and we are all going to die. 
+A systematic way to remove your tweets because life has no meaning and we are all going to die. This script will delete all your tweets after an specific number of days that you can change.
 
 ![Birdy](birdy.png)
 
@@ -17,6 +17,12 @@ You will need some version of [Ruby](http://ruby-lang.org) and to have your own 
 6. Add a new crontab entry with the command `sudo crontab -e`.
 7. If you want to check daily add `0 0 * * * /usr/local/sbin/twitter-purge`.
 8. Save and exit. You are done! 
+
+## Too Many Attempts
+
+If you have been using Twitter for a while the script will fail. The reason is simple, Twitter does not allow to delete a lot of tweets in one go. The API will throw something like `TooManyAttempts`. You just can not make a lot of requests and they block you. How many requests? Well, when I tried a while ago it was something like 150 requests.
+
+What I did the first time was to trigger the script several times and then wait and trigger again until I had no tweets. After that the script works like a charm. I set my `DAYS_TO_KEEP` to `7` to keep a week and that number is very rarely more than 150 tweets.
 
 ## But, Marce, Why?!!
 
