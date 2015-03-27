@@ -1,7 +1,8 @@
 Twitter Purge
 =============
 
-A systematic way to remove your tweets because we say dumb things. This script will delete all your tweets after an specific number of days that you can change.
+A systematic way to remove your tweets because we all say dumb things.  
+This script will delete all your tweets after an specific number of days that you can change.
 
 ![Birdy](birdy.png)
 
