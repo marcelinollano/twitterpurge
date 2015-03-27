@@ -1,7 +1,7 @@
 Twitter Purge
 =============
 
-A systematic way to remove your tweets because life has no meaning and we are all going to die. This script will delete all your tweets after an specific number of days that you can change.
+A systematic way to remove your tweets because we say dumb things. This script will delete all your tweets after an specific number of days that you can change.
 
 ![Birdy](birdy.png)
 
@@ -28,13 +28,11 @@ What I did the first time was to trigger the script several times and then wait 
 
 I am glad you asked. When I first started using Twitter it was something like sending SMS messages in the Internet. What mattered was the communication with people you followed and the links they shared. It was the first and only social network that I really enjoy and use everyday.
 
-If you look closely at Twitter's movements they are going into this Twitter Cards thing. If dig a bit into it you will find it looks a lot like Facebook's posts. I think what makes Twitter great is realtime communication, and this new world is about pictures of babies, weddings and vacations. I see it coming folks, it is around the corner.
+If you look closely at Twitter's movements they are going into this Twitter Cards thing. If dig a bit into it you will find it looks a lot like Facebook's posts. I think what makes Twitter great is realtime communication.
 
 All those posts generate clicks and open the door to advertisement. Twitter could use your content in creative ways to generate revenue. I am not saying it is not fair, it is. Their platform, their rules. But I am chosing to delete my tweets to reinforce the idea of Twitter as a messaging service in the open. At least until they let me.
 
 And anyway, have you ever read your tweets after a long time without the context of that day? It all sounds super dumb! I also delete them so I do not have to read them again. Which brings me to a deeper point: if I am not the same person from moment to moment, why all these social networks have to archive all my selves? I find that I cannot move forward if I dwell too much on my past.
-
-Am I overthinking this? Whatever.
 
 ## License
 
