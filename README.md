@@ -12,7 +12,7 @@ You will need some version of [Ruby](http://ruby-lang.org) and to have your own 
 
 1. Put the `twitter-purge.rb` script in your server, I use `/usr/local/sbin`.
 2. Install the Twitter gem with the command `gem install twitter`.
-3. Register a new Twitter application from the [Twitter Developer Portal](http://dev.twitter.com).
+3. Register a new Twitter application on [Twitter Application Management](https://apps.twitter.com/).
 4. Update the variables at the top of the script with your stuff.
 5. Make the file executable `sudo chmod +x /usr/local/sbin/twitter-purge`
 6. Add a new crontab entry with the command `sudo crontab -e`.
