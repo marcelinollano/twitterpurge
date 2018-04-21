@@ -2,22 +2,21 @@ Twitter Purge
 =============
 
 A systematic way to remove your tweets because we all say dumb things.  
-This script will delete all your tweets after an specific number of days that you can change.
+This script will delete all your tweets after an specific number of days that you can change. Deleted tweets are incrematlly saved into a plain text file called `backup.txt`.
 
 ![Birdy](birdy.png)
 
+## Requirements
+
+- Some version of [Ruby](http://ruby-lang.org) > 2.*
+- Bundler gem
+
 ## How to Install
 
-You will need some version of [Ruby](http://ruby-lang.org) and to have your own server, I guess. After that:
+1. Build a file called `config.yml` from `config.example.yml`. Register a new Twitter application on [Twitter Application Management](https://apps.twitter.com/) to obtain the authentication values.
+2. Run bundle install
 
-1. Put the `twitter-purge.rb` script in your server, I use `/usr/local/sbin`.
-2. Install the Twitter gem with the command `gem install twitter`.
-3. Register a new Twitter application on [Twitter Application Management](https://apps.twitter.com/).
-4. Update the variables at the top of the script with your stuff.
-5. Make the file executable `sudo chmod +x /usr/local/sbin/twitter-purge`
-6. Add a new crontab entry with the command `sudo crontab -e`.
-7. If you want to check daily add `0 0 * * * /usr/local/sbin/twitter-purge`.
-8. Save and exit. You are done!
+At this point, you should be able to run this with `bundle exec ruby twitter_purge.rb`. But the main objective of this is to make your timeline transitory, so this should be run frecuently (i.e add this to a cron file).
 
 ## Too Many Attempts
 
