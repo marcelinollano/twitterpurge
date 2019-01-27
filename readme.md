@@ -8,7 +8,7 @@ This script will delete all your tweets after an specific number of days that yo
 
 ## Requirements
 
-- Some version of [Ruby](http://ruby-lang.org) > 2.*
+- Some version of [Ruby](http://ruby-lang.org) > 2+
 - Bundler gem
 
 ## How to Install
