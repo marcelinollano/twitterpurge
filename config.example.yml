@@ -1,0 +1,8 @@
+user_name: "" # Your username without the @
+days_to_keep: 30 # Tweets older than this will be deleted
+# To obtain the following data you need to register the an application in
+# https://apps.twitter.com/
+consumer_key: ""
+consumer_secret: ""
+access_token: ""
+access_token_secret: ""
