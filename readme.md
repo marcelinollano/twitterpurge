@@ -32,7 +32,7 @@ If you look closely at Twitter's movements they are going into this Twitter Card
 
 All those posts generate clicks and open the door to advertisement. Twitter could use your content in creative ways to generate revenue. I am not saying it is not fair, it is. Their platform, their rules. But I am chosing to delete my tweets to reinforce the idea of Twitter as a messaging service in the open. At least until they let me.
 
-And anyway, have you ever read your tweets after a long time without the context of that day? It all sounds super dumb! I also delete them so I do not have to read them again. Which brings me to a deeper point: if I am not the same person from moment to moment, why all these social networks have to archive all my selves? I find that I cannot move forward if I dwell too much on my past.
+And anyway, have you ever read your tweets after a long time without the context of that day? It all sounds super dumb!
 
 ## License
 
