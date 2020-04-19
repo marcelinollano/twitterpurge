@@ -6,11 +6,6 @@ This script will delete all your tweets after an specific number of days that yo
 
 ![Birdy](birdy.png)
 
-## Requirements
-
-- Some version of [Ruby](http://ruby-lang.org) > 2+
-- Bundler gem
-
 ## How to Install
 
 1. Build a file called `config.yml` from `config.example.yml`. Register a new Twitter application on [Twitter Application Management](https://apps.twitter.com/) to obtain the authentication values.
